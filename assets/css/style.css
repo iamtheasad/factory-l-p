@@ -254,3 +254,17 @@ a:hover {
 .custom_embed {
    height: 300px;
 }
+
+.boxed_preview {
+   height: 170px;
+}
+
+.single_boxed_item {
+   text-decoration: none;
+   color: #ffffff;
+   transition: .2s;
+}
+
+.green_bg{
+   background-color: #1abc9c;
+}
