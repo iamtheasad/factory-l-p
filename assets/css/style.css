@@ -100,14 +100,12 @@ h6 {
 }
 
 .logo a {
-   text-decoration: none;
-   color: #34495e;
-}
-
-.logo a h1 {
    border: 2px solid #34495e;
    display: inline-flex;
    padding: 5px;
+   text-decoration: none;
+   color: #34495e;
+   transition: .2s;
 }
 
 .mainmenu ul li {
@@ -167,6 +165,7 @@ h6 {
 
 a:hover {
    color: #3498db;
+   s
 }
 
 .service_item_bg {
@@ -297,4 +296,31 @@ a:hover {
    left: 0;
    content: '';
    position: absolute;
+}
+
+/* Footer Section */
+.footer_logo a {
+   background: #fff;
+   border: none;
+   font-weight: 700;
+}
+
+.site_footer {
+   color: #fff;
+}
+
+.footer_wid ul li {
+   list-style: none;
+   margin-top: 2px;
+   cursor: pointer;
+}
+
+.footer_wid ul li a {
+   color: #fff;
+   font-weight: 500;
+   text-decoration: none;
+}
+
+.footer_wid ul li:hover a {
+   text-decoration: underline;
 }
