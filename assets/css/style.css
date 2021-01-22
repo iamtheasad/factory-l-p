@@ -3,6 +3,8 @@
 body {
    font-size: 16px;
    font-family: 'Roboto', sans-serif;
+}
+body, ul{
    margin: 0px;
    padding: 0px;
 }
@@ -238,4 +240,17 @@ a:hover {
 .who_we_are_text {
    padding-left: 25px;
    padding-right: 25px;
+}
+
+.gray_bg {
+   background-color: #dddddd;
+}
+
+.check_list li {
+   list-style: none;
+   line-height: 1.7;
+}
+
+.custom_embed {
+   height: 300px;
 }
